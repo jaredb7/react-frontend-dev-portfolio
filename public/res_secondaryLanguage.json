@@ -6,7 +6,8 @@
         "about": "O mnie",
         "projects": "Projekty",
         "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "experience": "Doświadczenie",
+        "hobbies" : "Zainteresowania"
       }
     },
     "projects": [
@@ -112,5 +113,27 @@
           "DHTMLX Gantt"
         ]
       }
-    ]
+    ],
+  "hobbies": [
+    {
+      "name": "Cars",
+      "icon": "mdi-car-2-plus"
+    },
+    {
+      "name": "Renovating",
+      "icon": "mdi-tools"
+    },
+    {
+      "name": "Exploring",
+      "icon": "mdi-compass"
+    },
+    {
+      "name": "Video Games",
+      "icon": "mdi-sony-playstation"
+    },
+    {
+      "name": "Music",
+      "icon": "mdi-music"
+    }
+  ]
   }
