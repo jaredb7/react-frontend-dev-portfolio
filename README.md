@@ -25,7 +25,7 @@ Check live demonstration <a href="https://dorota1997.github.io/react-frontend-de
 <h3>:books: Getting started</h3>
 
 1. Clone or fork project.
-2. Install required dependencies with `npm install --force` (required to ignore react <= 16.0 deps). 
+2. Install required dependencies with `npm install --force` (required to ignore react-typical <= 16.0 deps). 
 3. Remove `homepage` entirely from `package.json` or set it to single dot. 
 
 ```
