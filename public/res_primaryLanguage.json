@@ -82,6 +82,7 @@
     ],
     "experience": [
       {
+        "timelineIcon": "fas fa-landmark thisIsOptionalToChangeIcon",
         "company": "DefOpenSource",
         "title": "Front-End Developer",
         "years": "10.2019 - present",

@@ -1,3 +1,4 @@
+import Parser from "html-react-parser";
 import React, { Component } from "react";
 import {
   VerticalTimeline,
@@ -16,14 +17,14 @@ class Experience extends Component {
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
+            <Badge pill bg="custom" text="custom" className="main-badge mr-2 mb-2" key={i}>
               {technology}
             </Badge>
           );
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <Badge pill  bg="custom" text="custom" className="experience-badge mr-2 mb-2" key={i}>
               {technology}
             </Badge>
           );
@@ -37,7 +38,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={Parser("<i className=\"" + (!!(work.timelineIcon) ? work.timelineIcon : "fab fa-angular ") + " experience-icon\"></i>")}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
