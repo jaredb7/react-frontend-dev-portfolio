@@ -128,6 +128,7 @@ class App extends Component {
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}
+          sharedSkills_nonDev={this.state.sharedData.skills_nondev}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Experience

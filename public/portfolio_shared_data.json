@@ -64,5 +64,34 @@
           "level": "60"
         }
       ]
+    },
+    "skills_nondev": {
+      "icons": [
+        {
+          "name": "VMWare",
+          "class": "simple-icons:vmware",
+          "level": "95"
+        },
+        {
+          "name": "Win. Server",
+          "class": "simple-icons:windows",
+          "level": "95"
+        },
+        {
+          "name": "Powershell",
+          "class": "simple-icons:powershell",
+          "level": "80"
+        },
+        {
+          "name": "pFsense",
+          "class": "simple-icons:pfsense",
+          "level": "80"
+        },
+        {
+          "name": "Networking",
+          "class": "clarity:network-switch-solid",
+          "level": "80"
+        }
+      ]
     }
   }

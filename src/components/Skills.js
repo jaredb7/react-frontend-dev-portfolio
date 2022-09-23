@@ -23,6 +23,27 @@ class Skills extends Component {
         );
       });
     }
+    if (this.props.sharedSkills_nonDev) {
+      var skills_nondev = this.props.sharedSkills_nonDev.icons.map(function (skill_nondev, i) {
+        return (
+            <li className="list-inline-item mx-3" key={i}>
+            <span>
+              <div className="text-center skills-tile">
+                <i data-icon={skill_nondev.class}
+                   className="iconify" style={{fontSize: "320%"}}>
+                </i>
+                  <p
+                      className="text-center"
+                      style={{fontSize: "65%", marginTop: "4px"}}
+                  >
+                    {skill_nondev.name}
+                  </p>
+              </div>
+            </span>
+            </li>
+        );
+      });
+    }
 
     return (
       <section id="skills">
@@ -34,6 +55,7 @@ class Skills extends Component {
           </div>
           <div className="col-md-12 text-center">
             <ul className="list-inline mx-auto skill-icon">{skills}</ul>
+            <ul className="list-inline mx-auto skill-icon">{skills_nondev}</ul>
           </div>
         </div>
       </section>
