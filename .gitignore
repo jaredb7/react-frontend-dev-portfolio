@@ -21,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# PHP Storm
+/.idea
+.idea
+.idea/deployment.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/react-frontend-dev-portfolio.iml
+.idea/vcs.xml
